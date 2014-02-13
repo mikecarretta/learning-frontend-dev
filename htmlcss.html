@@ -1,0 +1,54 @@
+---
+layout: default
+title: HTML and CSS
+subtitle: "The building blocks of web development."
+slug: htmlcss
+icon: icon-html.png
+---
+
+<hgroup class="message message-htmlcss">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="{{ site.url }}/assets/img/{{ page.icon }}" />
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle}}</p>
+      </div>
+    </div>
+  </div>
+</hgroup>
+
+<section class="overview">
+  <div class="container">
+    <div class="row">
+      {% for htmlLink in site.data.htmlData %}
+      <div class="col-md-6 link-block">
+        <h1>{{ htmlLink.title }}</h1>
+        <p>{{ htmlLink.description }}</p>
+
+        {% if htmlLink.links %}
+          {% for link in htmlLink.links %}
+            <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="block">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h3>MDN HTML Description:</h3>
+        <blockquote>HyperText Markup Language (HTML) is the core language of nearly all Web content. Most of what you see on screen in your browser is described, fundamentally, using HTML. More precisely, HTML is the language that describes the structure and the semantic content of a Web document.</blockquote>
+      </div>
+      <div class="col-md-6">
+        <h3>MDN CSS Description:</h3>
+        <blockquote>Cascading Style Sheets, most of the time abbreviated as CSS, is a stylesheet language used to describe the presentation of a document written in HTML...CSS is one of the core languages of the open web and has a standardized W3C specification. ...</blockquote>
+      </div>
+    </div>
+  </div>
+</section>

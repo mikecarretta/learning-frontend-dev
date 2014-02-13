@@ -1,0 +1,18 @@
+{
+  "name": "LearnFED",
+  "version": "0.0.1",
+  "dependencies": {
+    "bootstrap": "~3.1",
+    "jquery": "~1.10.0",
+    "respond": "*"
+  },
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app",
+    "Gruntfile.js",
+    "package.json",
+    "*.html"
+  ]
+}

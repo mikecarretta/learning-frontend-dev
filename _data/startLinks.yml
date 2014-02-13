@@ -1,0 +1,33 @@
+- title: Where to Start
+  description: Codeacademy is a great site to learn syntax and the basics of HTML, CSS, JavaScript, and many more languages. Khan Academy CS uses Processing JS, a visual programming language, to learn JavaScript. I only included free sites; Code School has free intro cources JavaScript Road Trip Part 1, Try jQuery, Try Git, Discover Devtools. Additional links and resources will be listed in each relevant section.
+  links:
+    - urlName: Codecademy
+      url: http://www.codecademy.com
+    - urlName: Khan Academy
+      url: https://www.khanacademy.org/cs
+    - urlName: Code school - All Courses
+      url: https://www.codeschool.com/courses
+- title: Where to Get Help
+  description: Get help by searching Stackoverflow, Github, Google, and forums of the learning web sites if available. Make sure to search Stackoverflow before submitting a question, because someone might have already posted the question and gotten an answer.
+  links:
+    - urlName: Stackoverflow
+      url: http://stackoverflow.com
+    - urlName: Mozilla Developer Network
+      url: https://developer.mozilla.org
+    - urlName: Web Platform
+      url: http://www.webplatform.org
+    - urlName: DevDocs
+      url: http://devdocs.io
+- title: Additional Resources
+  description: These sites contain an almost unending list of links for front-end web development.
+  links:
+    - urlName: Frontend Dev-bookmarks
+      url: https://github.com/dypsilon/frontend-dev-bookmarks
+    - urlName: Front End Rescue
+      url: http://uptodate.frontendrescue.org
+    - urlName: Front End Development Guidelines
+      url: http://taitems.github.io/Front-End-Development-Guidelines/
+    - urlName: Hack Design
+      url: http://hackdesign.org/lessons
+    - urlName: Baseline for Front-End Developers
+      url: http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers

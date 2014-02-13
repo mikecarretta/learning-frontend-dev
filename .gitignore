@@ -1,0 +1,12 @@
+_site
+
+# OS or Editor folders
+.DS_Store
+._*
+Thumbs.db
+.cache
+
+# Folders to ignore
+node_modules
+bower_components
+app
