@@ -9,7 +9,6 @@ permalink:  pretty
 
 #server
 port:       9001
-url:
 url:        /learning-frontend-dev
 # http://localhost:9001
 exclude:    [".gitignore", "bower.json", "gruntfile.js", "package.json", "node_modules", "app", "README.md", "_less", "json"]
