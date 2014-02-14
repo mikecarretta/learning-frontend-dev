@@ -1,5 +1,5 @@
 - title: "HTML and CSS Learning Sites"
-  description:
+  description: "Start with any of these sites to learn HTML and CSS."
   links:
     - urlName: Codecademy Web Track
       url: http://www.codecademy.com/tracks/web/
@@ -9,6 +9,11 @@
       url: http://learn.shayhowe.com/advanced-html-css/
     - urlName: Dash
       url: https://dash.generalassemb.ly/
+- title: "Tutorial Sites"
+  description: "This is not a comprehensive list of HTML and CSS of tutorial links. These sites have great tutorials for all levels."
+  links:
+    - urlName: HTML5 Rocks
+      url: http://www.html5rocks.com/
     - urlName: Sitepoint
       url: http://www.sitepoint.com/
     - urlName: MDN Web Technologies Tutorials
@@ -22,19 +27,27 @@
     - urlName: Designmodo
       url: http://designmodo.com/
 - title: "HTML and CSS Reference Guides"
-  description:
+  description: "There is no need to memorize everything. Utilize MDN and DevDocs reference documents or search Stackoverflow."
   links:
+    - urlName: W3C Web Standards Wiki
+      url: http://www.w3.org/community/webed/wiki/Main_Page
     - urlName: Stackoverflow
       url: http://stackoverflow.com
     - urlName: DevDocs
       url: http://devdocs.io
     - urlName: MDN Web Technologies
       url: https://developer.mozilla.org/docs/Web
+    - urlName: Codecademy HTML Glossary
+      url: http://www.codecademy.com/glossary/html
 - title: "Front-end Templates"
-  description: Boostrap is by far the most popular framework avialable and has a large community and the documentation is extensive.
+  description: "Bootsrap is by far the most popular framework avialable and has a large community and the documentation is extensive."
   links:
     - urlName: Bootstrap
       url: http://getbootstrap.com/
+    - urlName: Foundation
+      url: http://foundation.zurb.com/
+    - urlName: Semantic UI
+      url: http://semantic-ui.com/
     - urlName: Pure
       url: http://purecss.io/
     - urlName: HTML5 Boilerplate

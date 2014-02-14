@@ -22,16 +22,19 @@ icon: icon-code.png
   <div class="container">
     <div class="row">
       {% for startLink in site.data.startLinks %}
-      <div class="col-md-4">
-        <h1>{{ startLink.title }}</h1>
-        <p>{{ startLink.description }}</p>
+      <div class="col-md-4 link-block">
+        <article class="link-panel panel-height-lg">
+          <h2>{{ startLink.title }}</h2>
+          <p>{{ startLink.description }}</p>
 
-        {% if startLink.links %}
-          {% for link in startLink.links %}
-            <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
-          {% endfor %}
-        {% endif %}
-
+          {% if startLink.links %}
+          <div class="links">
+            {% for link in startLink.links %}
+              <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
+            {% endfor %}
+          </div>
+          {% endif %}
+        </article>
       </div>
       {% endfor %}
     </div>

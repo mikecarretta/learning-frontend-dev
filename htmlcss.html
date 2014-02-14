@@ -1,7 +1,7 @@
 ---
 layout: default
 title: HTML and CSS
-subtitle: "The building blocks of web development."
+subtitle: "Learning HTML and CSS is fundamental to learning front-end development. Codeacademy has a great HTML and CSS course that covers the fundamentals and live coding in the browser."
 slug: htmlcss
 icon: icon-html.png
 ---
@@ -22,16 +22,19 @@ icon: icon-html.png
   <div class="container">
     <div class="row">
       {% for htmlLink in site.data.htmlData %}
-      <div class="col-md-6 link-block">
-        <h1>{{ htmlLink.title }}</h1>
-        <p>{{ htmlLink.description }}</p>
+      <div class="col-lg-6 link-block">
+        <article class="link-panel panel-height-med">
+          <h2>{{ htmlLink.title }}</h2>
+          <p>{{ htmlLink.description }}</p>
 
-        {% if htmlLink.links %}
-          {% for link in htmlLink.links %}
-            <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
-          {% endfor %}
-        {% endif %}
-
+          <div class="links">
+          {% if htmlLink.links %}
+            {% for link in htmlLink.links %}
+              <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
+            {% endfor %}
+          {% endif %}
+          </div>
+        </article>
       </div>
       {% endfor %}
     </div>

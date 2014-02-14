@@ -5,7 +5,9 @@
 .post-panel {
   height: 260px;
   background-color: @blue-gray-lightestx3;
-  border: 1px solid @blue-gray-lightestx2;
+  border: 1px solid @blue-gray-lightestx1;
+  border-radius: @border-radius-base;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
   .post-banner {
     height: 80px;
     width: 100%;
@@ -31,5 +33,44 @@
   }
   .small {
     color: @blue-gray-lightest;
+  }
+}
+
+.link-block {
+  margin-bottom: 30px;
+}
+
+.link-panel {
+  background-color: @blue-gray-lightestx3;
+  border-radius: @border-radius-base;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+  padding: 18px;
+  .btn {
+    margin-bottom: 5px;
+  }
+  h2 {
+    padding-bottom: 18px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid @brand-primary;
+  }
+  p {
+    margin: 0 0 20px;
+  }
+}
+
+.panel-height-lg {
+  height: 430px;
+}
+@media (max-width: @screen-lg-min) {
+  .panel-height-lg {
+    height: auto;
+  }
+}
+.panel-height-med {
+  height: 320px;
+}
+@media (max-width: @screen-lg-min) {
+  .panel-height-med {
+    height: auto;
   }
 }

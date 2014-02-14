@@ -1,5 +1,5 @@
 - title: Where to Start
-  description: Codeacademy is a great site to learn syntax and the basics of HTML, CSS, JavaScript, and many more languages. Khan Academy CS uses Processing JS, a visual programming language, to learn JavaScript. I only included free sites; Code School has free intro cources JavaScript Road Trip Part 1, Try jQuery, Try Git, Discover Devtools. Additional links and resources will be listed in each relevant section.
+  description: "Codeacademy is a great site to learn syntax and the basics of HTML, CSS, JavaScript, and many more languages. Khan Academy CS uses Processing JS, a visual programming language, to learn JavaScript. I only included free sites; Code School has free intro cources JavaScript Road Trip Part 1, Try jQuery, Try Git, Discover Devtools. Additional links and resources will be listed in each relevant section."
   links:
     - urlName: Codecademy
       url: http://www.codecademy.com
@@ -8,7 +8,7 @@
     - urlName: Code school - All Courses
       url: https://www.codeschool.com/courses
 - title: Where to Get Help
-  description: Get help by searching Stackoverflow, Github, Google, and forums of the learning web sites if available. Make sure to search Stackoverflow before submitting a question, because someone might have already posted the question and gotten an answer.
+  description: "Get help by searching Stackoverflow, Github, Google, and forums of the learning web sites if available. Make sure to search Stackoverflow before submitting a question, because someone might have already posted the question and gotten an answer."
   links:
     - urlName: Stackoverflow
       url: http://stackoverflow.com
@@ -19,7 +19,7 @@
     - urlName: DevDocs
       url: http://devdocs.io
 - title: Additional Resources
-  description: These sites contain an almost unending list of links for front-end web development.
+  description: "These sites contain an almost unending list of links for front-end web development."
   links:
     - urlName: Frontend Dev-bookmarks
       url: https://github.com/dypsilon/frontend-dev-bookmarks
