@@ -51,7 +51,7 @@ icon: icon-code.png
           <div class="post-banner">
             <span class="glyphicon glyphicon-{{ post.icon }}"></span>
           </div>
-          <h3><a href="{{ site.url }}/{{ post.url }}">{{ post.title }}</a></h3>
+          <h3><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h3>
           <p class="small">{{ post.date | date_to_string }}</p>
           <p>{{ post.exerpt }}</p>
         </article>

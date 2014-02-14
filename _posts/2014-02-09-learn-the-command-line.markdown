@@ -3,7 +3,6 @@ layout: post
 title:  "Learn the Command Line"
 exerpt: "Learning the Command Line is very important to learning front end development."
 date:   2014-02-09 15:10:28
-categories: Learn Command Line
 icon: star
 ---
 
