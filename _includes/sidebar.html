@@ -1,0 +1,10 @@
+<h3>Current Posts</h3>
+
+<div class="list-group widget">
+{% for post in site.posts %}
+  <a href="{{ post.url }}" class="list-group-item">
+    <h4 class="list-group-item-heading"></span>{{ post.title }}</h4>
+    <p class="list-group-item-text">{{ post.exerpt }}</p>
+  </a>
+{% endfor %}
+</div>

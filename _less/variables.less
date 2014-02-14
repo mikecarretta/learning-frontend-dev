@@ -1,0 +1,80 @@
+/*
+  My CrazyFlat UI
+  http://www.colourlovers.com/palette/2819973/My_CrazyFlat_UI
+  Dark Gray: #3E4651, Orange/Red #F1654C, Blue/Green #00B5B5, Light Gray #D4D4D4, White #FFFFFF
+*/
+
+@blue-gray:             #3E4651;
+@blue-gray-kindof-dark: darken(@blue-gray, 3%);
+@blue-gray-dark:        darken(@blue-gray, 6%); /* #313740 */
+@blue-gray-darker:      darken(@blue-gray, 12%);
+@blue-gray-darkest:     darken(@blue-gray, 18%);
+@blue-gray-light:       lighten(@blue-gray, 6%);
+@blue-gray-lighter:     lighten(@blue-gray, 12%);
+@blue-gray-lightest:    lighten(@blue-gray, 30%);
+@blue-gray-lightestx2:  lighten(@blue-gray, 60%);
+@blue-gray-lightestx3:  lighten(@blue-gray, 70%);
+
+@white:                 #FFFFFF;
+@off-white:             #F5F5F5;
+
+@brand-primary:         #00B5B5;
+@brand-success:         #D4D4D4;
+@brand-info:            #5bc0de;
+@brand-warning:         #F1654C;
+@brand-danger:          #d9534f;
+
+@brand-primary-dark:    darken(@brand-primary, 3%);
+@brand-primary-darker:  darken(@brand-primary, 6%);
+
+//== Typography - Overwrites
+
+// Body
+// font-family: 'Open Sans', sans-serif;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+// Header
+// font-family: 'Bitter', serif;
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+
+
+@font-family-sans-serif:  "Open Sans", Helvetica Neue, Helvetica, Arial, sans-serif;
+@font-family-serif:       "Bitter", Georgia, Times New Roman, Times, serif;
+//** Default monospace fonts for `<code>`, `<kbd>`, and `<pre>`.
+@font-family-monospace:   Menlo, Monaco, Consolas, "Courier New", monospace;
+@font-family-base:        @font-family-sans-serif;
+
+// @headings-font-family:    @font-family-serif;
+@headings-color:          @blue-gray-dark;
+
+
+//== Navbar - Overwrites
+@navbar-height:                            70px;
+@navbar-padding-horizontal:                floor((@grid-gutter-width / 1.5));
+
+// Navbar toggle
+@navbar-default-toggle-hover-bg:           #ddd;
+@navbar-default-toggle-icon-bar-bg:        #888;
+@navbar-default-toggle-border-color:       #ddd;
+
+// Inverted navbar
+// Reset inverted navbar basics
+@navbar-inverse-color:                      @gray-lighter;
+@navbar-inverse-bg:                         @blue-gray;
+@navbar-inverse-border:                     @blue-gray-dark;
+
+// Inverted navbar links
+@navbar-inverse-link-color:                 @gray-lighter;
+@navbar-inverse-link-hover-color:           @white;
+@navbar-inverse-link-hover-bg:              transparent;
+@navbar-inverse-link-active-color:          @white;
+@navbar-inverse-link-active-bg:             @blue-gray-dark;
+
+// Inverted navbar brand label
+@navbar-inverse-brand-color:                @blue-gray-lightest;
+@navbar-inverse-brand-hover-color:          @white;
+@navbar-inverse-brand-hover-bg:             transparent;
+
+// Inverted navbar toggle
+@navbar-inverse-toggle-hover-bg:            #333;
+@navbar-inverse-toggle-icon-bar-bg:         @white;
+@navbar-inverse-toggle-border-color:        #333;

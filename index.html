@@ -1,0 +1,63 @@
+---
+layout: default
+title: Learning Front-end Development
+subtitle: This site is a collection of bookmarks for learning front-end development. I am still in the process of learning and needed a cental place to display all the articles, books, web sites, frameworks, code snippets and many other types of relevant information. Plus, I also wanted to created a bootstrap Jekyll theme.
+slug: home
+icon: icon-code.png
+---
+
+<hgroup class="message message-home">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <img src="{{ site.url }}/assets/img/{{ page.icon }}" />
+        <h1>{{ page.title }}</h1>
+        <p>{{ page.subtitle}}</p>
+      </div>
+    </div>
+  </div>
+</hgroup>
+
+<section class="overview">
+  <div class="container">
+    <div class="row">
+      {% for startLink in site.data.startLinks %}
+      <div class="col-md-4">
+        <h1>{{ startLink.title }}</h1>
+        <p>{{ startLink.description }}</p>
+
+        {% if startLink.links %}
+          {% for link in startLink.links %}
+            <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
+          {% endfor %}
+        {% endif %}
+
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<section class="posts">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+       <h1 class="section-header">Posts</h1>
+      </div>
+
+      {% for post in site.posts %}
+        <div class="col-md-4 posts">
+        <article class="post-panel">
+          <div class="post-banner">
+            <span class="glyphicon glyphicon-{{ post.icon }}"></span>
+          </div>
+          <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+          <p class="small">{{ post.date | date_to_string }}</p>
+          <p>{{ post.exerpt }}</p>
+        </article>
+        </div>
+      {% endfor %}
+
+    </div>
+  </div>
+</section>

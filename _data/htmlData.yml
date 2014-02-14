@@ -1,0 +1,62 @@
+- title: "HTML and CSS Learning Sites"
+  description:
+  links:
+    - urlName: Codecademy Web Track
+      url: http://www.codecademy.com/tracks/web/
+    - urlName: A Beginner’s Guide to HTML &amp; CSS
+      url: http://learn.shayhowe.com/html-css/
+    - urlName: Learn Advanced HTML &amp; CSS
+      url: http://learn.shayhowe.com/advanced-html-css/
+    - urlName: Dash
+      url: https://dash.generalassemb.ly/
+    - urlName: Sitepoint
+      url: http://www.sitepoint.com/
+    - urlName: MDN Web Technologies Tutorials
+      url: https://developer.mozilla.org/docs/Web/Tutorials
+    - urlName: Don't Fear the Internet
+      url: http://www.dontfeartheinternet.com/
+    - urlName: tuts+ Code
+      url: http://code.tutsplus.com/
+    - urlName: tuts+ Web Design
+      url: http://webdesign.tutsplus.com/
+    - urlName: Designmodo
+      url: http://designmodo.com/
+- title: "HTML and CSS Reference Guides"
+  description:
+  links:
+    - urlName: Stackoverflow
+      url: http://stackoverflow.com
+    - urlName: DevDocs
+      url: http://devdocs.io
+    - urlName: MDN Web Technologies
+      url: https://developer.mozilla.org/docs/Web
+- title: "Front-end Templates"
+  description: Boostrap is by far the most popular framework avialable and has a large community and the documentation is extensive.
+  links:
+    - urlName: Bootstrap
+      url: http://getbootstrap.com/
+    - urlName: Pure
+      url: http://purecss.io/
+    - urlName: HTML5 Boilerplate
+      url: http://html5boilerplate.com/
+    - urlName: Initializr
+      url: http://www.initializr.com/
+    - urlName: Designmodo Flat UI Free
+      url: http://designmodo.com/flat-free/
+- title: "CSS pre-processors, Generators and Blogs"
+  description:
+  links:
+    - urlName: Less
+      url: http://lesscss.org/
+    - urlName: Sass
+      url: http://sass-lang.com/
+    - urlName: Normalize - CSS resets
+      url: http://necolas.github.io/normalize.css/
+    - urlName: CSS-Tricks
+      url: http://css-tricks.com/
+    - urlName: CSS Wizardry
+      url: http://csswizardry.com/
+    - urlName: CSS3 Generator
+      url: http://css3generator.com/
+    - urlName: CCS3 Gradient Generator
+      url: http://www.colorzilla.com/gradient-editor/

@@ -1,0 +1,15 @@
+name:       Learn Front-end Dev
+
+# Dependencies
+markdown:   redcarpet
+pygments:   true
+
+# Permalinks
+permalink:  pretty
+
+#server
+port:       9001
+url:
+baseurl:    /
+url:        http://localhost:9001
+exclude:    [".gitignore", "bower.json", "gruntfile.js", "package.json", "node_modules", "app", "README.md", "_less", "json"]
