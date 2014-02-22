@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Learning Front-end Development
-subtitle: This site is a collection of bookmarks for learning front-end development. I am still in the process of learning and needed a cental place to display all the articles, books, web sites, frameworks, code snippets and many other types of relevant information. Plus, I also wanted to created a bootstrap Jekyll theme.
+subtitle: This site is a collection of bookmarks for learning front-end development; HTML, CSS and JavaScript. I am still in the process of learning and needed a cental place to display all the articles, books, web sites, frameworks, code snippets and many other types of relevant information.
 slug: home
 icon: icon-code.png
 ---
@@ -18,12 +18,32 @@ icon: icon-code.png
   </div>
 </hgroup>
 
-<section class="overview">
+<section class="intro">
   <div class="container">
     <div class="row">
-      {% for startLink in site.data.startLinks %}
-      <div class="col-md-4 link-block">
-        <article class="link-panel panel-height-lg">
+      <div class="col-md-6">
+        <p>There are many directions, languages, and ups and downs learning to code? Start by reading Alex Krupp's blog post about teaching your self to code: <a href="http://alexkrupp.typepad.com/sensemaking/2013/11/2012-my-year-of-code.html">2012: My Year of Code</a> and the <a href="https://news.ycombinator.com/item?id=6683051">Hacker News Discussion</a>. Another great blog post about learning to program and where to start is titled "<a href="http://sdawncasey.wordpress.com/about/">omg! I’m a n00b and too afraid to start!</a>" by Dawn Casey.</p>
+
+        <p>Search Youtube, Google, Stackoverflow, Github, etc. to find tutorials and step-by-step directions. Follow developers on Twitter; <a href="http://uptodate.frontendrescue.org/">Front-end Technologies: Step 1</a> has a great list of Front-end leaders.</p>
+      </div>
+      <div class="col-md-6">
+        <p>This quote from Andy Osmani is great advise:</p>
+        <blockquote>
+          <p>First do it, then do it right, then do it better. This is one fundamental I always keep in mind when developing anything.</p>
+          <p>If you're a developer wishing to learn something new, regardless of skill-level, remember that as important as it is to read, it's equally as important to get out there and *do*.</p>
+          <footer><a href="http://addyosmani.com/blog/">Addy Osmani</a> <cite title="Fundamentals Section in his blog footer">Fundamentals Section in his blog footer</cite></footer>
+        </blockquote>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% for startLink in site.data.startLinks %}
+<section class="overview {% cycle 'one', 'two', 'three' %}">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <article class="link-panel">
           <h2>{{ startLink.title }}</h2>
           <p>{{ startLink.description }}</p>
 
@@ -36,10 +56,11 @@ icon: icon-code.png
           {% endif %}
         </article>
       </div>
-      {% endfor %}
+
     </div>
   </div>
 </section>
+{% endfor %}
 
 <section class="posts">
   <div class="container">

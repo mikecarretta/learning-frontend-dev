@@ -7,6 +7,14 @@
       url: https://www.khanacademy.org/cs
     - urlName: Code school - All Courses
       url: https://www.codeschool.com/courses
+    - urlName: Udacity
+      url: "https://www.udacity.com/courses#!/Web%20Development"
+    - urlName: Learn Code
+      url: http://learn.code.org/
+    - urlName: Baseline for Front-end Developers
+      url: http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers/
+    - urlName: Learn to Code - Kelsey Breseman
+      url: http://ifoundthemeaningoflife.com/learntocode
 - title: Where to Get Help
   description: "Get help by searching Stackoverflow, Github, Google, and forums of the learning web sites if available. Make sure to search Stackoverflow before submitting a question, because someone might have already posted the question and gotten an answer."
   links:
@@ -29,5 +37,3 @@
       url: http://taitems.github.io/Front-End-Development-Guidelines/
     - urlName: Hack Design
       url: http://hackdesign.org/lessons
-    - urlName: Baseline for Front-End Developers
-      url: http://rmurphey.com/blog/2012/04/12/a-baseline-for-front-end-developers

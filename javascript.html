@@ -18,12 +18,27 @@ icon: icon-javascript.png
   </div>
 </hgroup>
 
-<section class="overview">
+
+{% for jsLink in site.data.jsData %}
+<section class="overview {% cycle 'one', 'two', 'three' %}">
   <div class="container">
     <div class="row">
+      <div class="col-lg-12">
+        <article class="link-panel">
+          <h2>{{ jsLink.title }}</h2>
+          <p>{{ jsLink.description }}</p>
 
-    <h1>JavaScript</h1>
+          <div class="links">
+          {% if jsLink.links %}
+            {% for link in jsLink.links %}
+              <a href="{{link.url}}" title="{{link.urlName}}" class="btn btn-default">{{link.urlName}}</a>
+            {% endfor %}
+          {% endif %}
+          </div>
+        </article>
+      </div>
 
     </div>
   </div>
 </section>
+{% endfor %}

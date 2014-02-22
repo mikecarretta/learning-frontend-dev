@@ -13,7 +13,7 @@
     width: 100%;
     text-align: center;
     border-bottom: 3px solid @brand-warning;
-    background-color: @blue-gray-lighter;
+    background-color: @blue-gray-light12;
     .glyphicon {
       color: @white;
       margin-top: 20px;
@@ -36,41 +36,31 @@
   }
 }
 
-.link-block {
-  margin-bottom: 30px;
+.overview {
+  background-color: @blue-gray-lightestx2;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
+  .one { background-color: @blue-gray-lightestx3; }
+  .two { background-color: @blue-gray-lightestx2; }
+  .three { background-color: @blue-gray-lightestx57; }
 
 .link-panel {
-  background-color: @blue-gray-lightestx3;
+  background-color: @white;
   border-radius: @border-radius-base;
   box-shadow: 0 1px 1px rgba(0,0,0,0.3);
-  padding: 18px;
+  padding: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
   .btn {
     margin-bottom: 5px;
   }
   h2 {
     padding-bottom: 18px;
-    margin-bottom: 20px;
+    margin: 0 0 20px;
     border-bottom: 1px solid @brand-primary;
   }
   p {
     margin: 0 0 20px;
-  }
-}
-
-.panel-height-lg {
-  height: 430px;
-}
-@media (max-width: @screen-lg-min) {
-  .panel-height-lg {
-    height: auto;
-  }
-}
-.panel-height-med {
-  height: 320px;
-}
-@media (max-width: @screen-lg-min) {
-  .panel-height-med {
-    height: auto;
   }
 }

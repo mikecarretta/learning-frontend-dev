@@ -18,12 +18,13 @@ icon: icon-html.png
   </div>
 </hgroup>
 
-<section class="overview">
+{% for htmlLink in site.data.htmlData %}
+<section class="overview {% cycle 'one', 'two', 'three' %}">
   <div class="container">
     <div class="row">
-      {% for htmlLink in site.data.htmlData %}
-      <div class="col-lg-6 link-block">
-        <article class="link-panel panel-height-med">
+
+      <div class="col-lg-12">
+        <article class="link-panel">
           <h2>{{ htmlLink.title }}</h2>
           <p>{{ htmlLink.description }}</p>
 
@@ -36,10 +37,11 @@ icon: icon-html.png
           </div>
         </article>
       </div>
-      {% endfor %}
+
     </div>
   </div>
 </section>
+{% endfor %}
 
 <section class="block">
   <div class="container">
